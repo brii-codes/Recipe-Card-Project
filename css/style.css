@@ -1,0 +1,158 @@
+/***** STYLE PROPERTIES *****/
+body{
+    background-color: #DAF7F6; 
+    font-family:'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 16px;
+    font-size: 12px;
+}
+/***** HEADER *****/
+header{
+    background-color: white;
+    text-align: center;
+}
+header img{
+    margin-right: 10px;
+}
+h1{
+    display:inline-block;
+    padding: 40px;
+    margin:0;
+    font-family: 'montserrat', sans-serif;
+    color:#F16059;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+/***** RECIPE CARDS *****/
+.card{
+   margin-top:10px;
+   margin-bottom:10px;
+   overflow:hidden;
+
+}
+.image{
+    float: left;
+    width: 500px;
+    height: 550px;
+}
+.recipe{
+    float:left;
+    width: 500px;
+    height: 550px;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.recipe h3{
+    font-family: 'montserrat', sans-serif;
+    color:#F16059;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    border-bottom: 1px solid #3B3B3B;
+    border-top: 1px solid #3B3B3B;
+}
+#cookies .image{
+    background-image:url("../img/cookies.jpg");
+    background-size: cover;
+}
+#pesto .image{
+    background-image: url("../img/pesto.jpg");
+    background-size: cover;
+}
+#salad .image{
+    background-image: url("../img/salad.jpg");
+    background-size: cover;
+}
+h2{
+    font-family: 'montserrat', sans-serif;
+    color:#F16059;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top:10px;
+}
+/***** TIME BOX *****/
+.time{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #3B3B3B;
+    border-top: 1px solid #3B3B3B;
+    border-right: 1px solid #3B3B3B;
+    border-left: 1px solid #3B3B3B;
+    overflow: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.prep, .cook, .total{
+    font-family: 'montserrat', sans-serif;
+    color:#3B3B3B;
+    font-size: 12px;
+    text-transform: uppercase;
+    float: left;
+    padding-left: 6px;
+    width: 33.3%;
+    box-sizing: border-box;
+}
+.time .prep{
+    border-right: 1px solid #3B3B3B;
+}
+.time .cook{
+    border-right: 1px solid #3B3B3B;
+}
+.prep img{
+    width: 15px;
+    height: auto;
+}
+.cook img{
+    width: 15px;
+    height: auto;
+}
+.total img{
+    width: 15px;
+    height: auto;
+}
+.time-details{
+    display:inline-block;
+}
+.time .img{
+    margin-right:10px;
+    vertical-align: middle;
+}
+.time p strong{
+    font-family: 'Montserrat', sans-serif;
+}
+/***** INGREDIENTS & DIRECTIONS COLUMNS *****/
+.columns{
+    overflow:auto;
+}
+.directions{
+    float: left;
+    width: 240px;
+}
+.ingredients{
+    float: left;
+    width: 205px;
+    margin-right: 5px;
+}
+.ingredients ul{
+    padding-left: 20px;
+    list-style-position: outside;
+}
+.directions ol{
+    padding-left: 23px;
+}
+
+.ingredients ul li{
+    line-height: 21px;
+    list-style-type: square;       
+}
+.directions ol li{
+    line-height: 21px;  
+}
